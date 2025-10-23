@@ -17,3 +17,7 @@ python manage.py migrate
 pip install -r requirements.txt # install dependencies
 
 pip freeze > requirements.txt # update dependencies
+
+    
+# Initial adminuser
+python manage.py create_initial_user
